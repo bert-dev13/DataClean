@@ -1,0 +1,12 @@
+.git
+.vercel
+scratch/
+screenshots/
+dbl template/
+odessee template/
+*.xlsx
+*.csv
+extracted_specs.json
+full_analysis.json
+template_analysis_raw.json
+scripts/

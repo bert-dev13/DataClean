@@ -1,0 +1,2479 @@
+{
+  "dbl": {
+    "business-template.xlsx": {
+      "file_name": "business-template.xlsx",
+      "sheet_names": [
+        "Data",
+        "Instructions"
+      ],
+      "sheets": {
+        "Data": {
+          "max_row": 1000,
+          "max_col": 26,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Line of Business (DTI)",
+                "DTI Sub Category",
+                "PSIC Sub-Class Code",
+                "Business Trade Name",
+                "Street",
+                "Purok",
+                "Barangay",
+                "Latitude",
+                "Longitude",
+                "Registration Date (mm/dd/yy)",
+                "Permit Status",
+                "Gross Sales",
+                "Total Male Employees",
+                "Total Female Employees"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 19,
+          "max_col": 4,
+          "row_count_with_data": 18,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Line of Business (DTI)",
+                "String",
+                "Use PSA Philippine Standard Industrial Classification (PSIC) as the basis for the business activity classification. Match the principal economic activity to the corresponding PSIC description and sub-class code. This existing column header is retained.",
+                "Real estate activities with own or leased property"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "DTI Sub Category",
+                "String",
+                "Use the business activity description corresponding to the selected PSA PSIC sub-class code. Keep this description, Line of Business (DTI), and PSIC Sub-Class Code consistent with the same PSIC edition. This existing column header is retained.",
+                "Renting and operating of self-owned or leased residential buildings and dwellings"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "PSIC Sub-Class Code",
+                "String",
+                "Use the official PSA PSIC sub-class code for the business activity. Store it as text and preserve every digit, including leading zeros. Verify that the code and activity descriptions agree with the same PSIC edition.",
+                "68101"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Business Trade Name",
+                "String",
+                "Enter the registered trade name exactly as recorded. Preserve official spelling, punctuation, and diacritics. Avoid unofficial abbreviations.",
+                "E.R. VILLASEÑOR REAL ESTATE LEASING"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Street",
+                "String",
+                "Enter the official street name. Avoid abbreviations where a full official name is available. Capitalize the first letter of each word and retain official punctuation.",
+                "National Road"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "Purok",
+                "String",
+                "Enter the official purok or sitio name. Avoid abbreviations and use Arabic digits instead of Roman numerals when a location number is present. Keep the name consistent with its barangay.",
+                "Purok 1"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Barangay",
+                "String",
+                "Use the official barangay name in the PSA Philippine Standard Geographic Code (PSGC). Match the correct city or municipality and province. Preserve PSGC spelling, punctuation, and numbering. Do not use unofficial aliases or abbreviations.",
+                "Barangay 1"
+              ]
+            },
+            {
+              "row": 9,
+              "values": [
+                "Latitude",
+                "Float",
+                "Enter a valid decimal latitude from -90 to 90. Use a decimal point, without degree symbols. Verify that the coordinate matches the stated location.",
+                "13.93824298"
+              ]
+            },
+            {
+              "row": 10,
+              "values": [
+                "Longitude",
+                "Float",
+                "Enter a valid decimal longitude from -180 to 180. Use a decimal point, without degree symbols. Verify that the coordinate matches the stated location.",
+                "121.6132709"
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "Registration Date (mm/dd/yy)",
+                "Date",
+                "Enter a valid registration date. Follow the format specified in the column header: MM/DD/YY. Verify the full year against the source record before entering a two-digit year.",
+                "11/18/26"
+              ]
+            },
+            {
+              "row": 12,
+              "values": [
+                "Permit Status",
+                "String",
+                "Use the exact permit-status label accepted by the reporting system. Verify it against the permit record. The supplied sample uses Renewal.",
+                "Renewal"
+              ]
+            },
+            {
+              "row": 13,
+              "values": [
+                "Gross Sales",
+                "Float",
+                "Enter a nonnegative numeric amount. Use a decimal point and omit currency symbols and thousands separators in import values. Use the currency and reporting period required by the reporting system. A blank value must not be replaced by zero.",
+                "240000"
+              ]
+            },
+            {
+              "row": 14,
+              "values": [
+                "Total Male Employees",
+                "Integer",
+                "Enter a nonnegative whole-number count for the applicable reporting period. Use 0 only when the confirmed count is zero. Keep missing counts blank until verified.",
+                "0"
+              ]
+            },
+            {
+              "row": 15,
+              "values": [
+                "Total Female Employees",
+                "Integer",
+                "Enter a nonnegative whole-number count for the applicable reporting period. Use 0 only when the confirmed count is zero. Keep missing counts blank until verified.",
+                "0"
+              ]
+            },
+            {
+              "row": 17,
+              "values": [
+                "Keep Data column headers unchanged. Use one record per row. Examples illustrate entry format. Confirm category lists, units, and required fields with the receiving system."
+              ]
+            },
+            {
+              "row": 18,
+              "values": [
+                "Barangay basis: PSA PSGC — https://psa.gov.ph/classification/psgc"
+              ]
+            },
+            {
+              "row": 19,
+              "values": [
+                "Business classification basis: PSA PSIC — https://psa.gov.ph/classification/psic"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "crime-template.xlsx": {
+      "file_name": "crime-template.xlsx",
+      "sheet_names": [
+        "Data",
+        "Instructions"
+      ],
+      "sheets": {
+        "Data": {
+          "max_row": 1000,
+          "max_col": 26,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Blotter Number",
+                "Datetime Reported",
+                "Datetime Committed",
+                "Sub Violation",
+                "PSCCS Sub-Class Code",
+                "Violation Name",
+                "Complainant Gender",
+                "Respondent Gender",
+                "Street",
+                "Purok",
+                "Barangay",
+                "Latitude",
+                "Longitude"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 18,
+          "max_col": 4,
+          "row_count_with_data": 17,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Blotter Number",
+                "String",
+                "Enter the official blotter identifier exactly as recorded. Keep leading zeros and hyphens.",
+                "TEST-BL-000001"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Datetime Reported",
+                "Datetime",
+                "Enter the date and time the incident was reported. Recommended format: YYYY-MM-DD HH:mm, using a 24-hour clock and the local reporting timezone. This should not be earlier than Datetime Committed.",
+                "2026-07-21 05:38"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Datetime Committed",
+                "Datetime",
+                "Enter the date and time the incident occurred, based on the source record. Recommended format: YYYY-MM-DD HH:mm, using a 24-hour clock and the same timezone as Datetime Reported.",
+                "2026-07-20 03:38"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Sub Violation",
+                "String",
+                "Use the applicable description from the PSA Philippine Standard Classification of Crime for Statistical Purposes (PSCCS). Classify the recorded incident using PSCCS definitions and verify that the description agrees with the selected PSCCS sub-class code.",
+                "Acts against comprehensive dangerous drugs act"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "PSCCS Sub-Class Code",
+                "String",
+                "Use the official sub-class code from PSA PSCCS for the recorded offense. Store it as text and preserve every digit, including leading zeros. Verify the code and description against the same PSCCS edition. Do not derive code length from the sample records.",
+                "806102"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "Violation Name",
+                "String",
+                "Use the official offense description corresponding to the selected PSA PSCCS code. Apply the PSCCS definitions to the incident details. Keep Violation Name, Sub Violation, and PSCCS Sub-Class Code consistent with the same classification edition.",
+                "Obstruction of justice"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Complainant Gender",
+                "String",
+                "Enter the complainant’s gender using the exact label accepted by the reporting system. Use the source record and do not infer gender from a name.",
+                "Female"
+              ]
+            },
+            {
+              "row": 9,
+              "values": [
+                "Respondent Gender",
+                "String",
+                "Enter the respondent’s gender using the exact label accepted by the reporting system. Use the source record and do not infer gender from a name.",
+                "Male"
+              ]
+            },
+            {
+              "row": 10,
+              "values": [
+                "Street",
+                "String",
+                "Enter the official street name. Avoid abbreviations where a full official name is available. Capitalize the first letter of each word and retain official punctuation.",
+                "National Road"
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "Purok",
+                "String",
+                "Enter the official purok or sitio name. Avoid abbreviations and use Arabic digits instead of Roman numerals when a location number is present. Keep the name consistent with its barangay.",
+                "Purok 1"
+              ]
+            },
+            {
+              "row": 12,
+              "values": [
+                "Barangay",
+                "String",
+                "Use the official barangay name in the PSA Philippine Standard Geographic Code (PSGC). Match the correct city or municipality and province. Preserve PSGC spelling, punctuation, and numbering. Do not use unofficial aliases or abbreviations.",
+                "Barangay 1"
+              ]
+            },
+            {
+              "row": 13,
+              "values": [
+                "Latitude",
+                "Float",
+                "Enter a valid decimal latitude from -90 to 90. Use a decimal point, without degree symbols. Verify that the coordinate matches the stated location.",
+                "13.93824298"
+              ]
+            },
+            {
+              "row": 14,
+              "values": [
+                "Longitude",
+                "Float",
+                "Enter a valid decimal longitude from -180 to 180. Use a decimal point, without degree symbols. Verify that the coordinate matches the stated location.",
+                "121.6132709"
+              ]
+            },
+            {
+              "row": 16,
+              "values": [
+                "Keep Data column headers unchanged. Use one record per row. Examples illustrate entry format. Confirm category lists, units, and required fields with the receiving system."
+              ]
+            },
+            {
+              "row": 17,
+              "values": [
+                "Barangay basis: PSA PSGC — https://psa.gov.ph/classification/psgc"
+              ]
+            },
+            {
+              "row": 18,
+              "values": [
+                "Crime classification basis: PSA PSCCS — https://psa.gov.ph/classification/psccs/general-information"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "human-resource-template.xlsx": {
+      "file_name": "human-resource-template.xlsx",
+      "sheet_names": [
+        "Data",
+        "Instructions"
+      ],
+      "sheets": {
+        "Data": {
+          "max_row": 1000,
+          "max_col": 26,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Student Number",
+                "Gender",
+                "Street",
+                "Purok",
+                "Barangay",
+                "School",
+                "Course",
+                "Graduation Year"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 12,
+          "max_col": 4,
+          "row_count_with_data": 11,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Student Number",
+                "String",
+                "Enter the student identifier exactly as issued. Keep leading zeros and hyphens. Use text format. Check duplicate student records before importing.",
+                "TEST-STU-0000001"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Gender",
+                "String",
+                "Use the exact gender label accepted by the reporting system and supported by the source record. Keep spelling and capitalization consistent.",
+                "Male"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Street",
+                "String",
+                "Enter the official street name. Avoid abbreviations where a full official name is available. Capitalize the first letter of each word and retain official punctuation.",
+                "National Road"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Purok",
+                "String",
+                "Enter the official purok or sitio name. Avoid abbreviations and use Arabic digits instead of Roman numerals when a location number is present. Keep the name consistent with its barangay.",
+                "Purok 1"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Barangay",
+                "String",
+                "Use the official barangay name in the PSA Philippine Standard Geographic Code (PSGC). Match the correct city or municipality and province. Preserve PSGC spelling, punctuation, and numbering. Do not use unofficial aliases or abbreviations.",
+                "Barangay 1"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "School",
+                "String",
+                "Enter the official school or institution name. Avoid abbreviations unless they are part of the official name. Capitalize names consistently.",
+                "TEST SCHOOL 01"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Course",
+                "String",
+                "Enter the official course, program, or strand title as recorded by the institution. Retain qualification levels and specialization names.",
+                "TVL - Industrial Arts"
+              ]
+            },
+            {
+              "row": 9,
+              "values": [
+                "Graduation Year",
+                "Integer",
+                "Enter a four-digit calendar year for the recorded graduation, such as 2025. Do not enter a full date or academic-year range.",
+                "2025"
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "Keep Data column headers unchanged. Use one record per row. Examples illustrate entry format. Confirm category lists, units, and required fields with the receiving system."
+              ]
+            },
+            {
+              "row": 12,
+              "values": [
+                "Barangay basis: PSA PSGC — https://psa.gov.ph/classification/psgc"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "power-template.xlsx": {
+      "file_name": "power-template.xlsx",
+      "sheet_names": [
+        "Data",
+        "Instructions"
+      ],
+      "sheets": {
+        "Data": {
+          "max_row": 1000,
+          "max_col": 26,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Account Number",
+                "Type",
+                "Consumption",
+                "Street",
+                "Purok",
+                "Barangay",
+                "Billing Date"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 11,
+          "max_col": 4,
+          "row_count_with_data": 10,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Account Number",
+                "String",
+                "Enter the account identifier exactly as issued. Keep leading zeros, letters, and hyphens. Use text format. Each account and billing date combination should identify one billing record.",
+                "TEST-PWR-0000001"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Type",
+                "String",
+                "Use the exact electricity customer classification accepted by the provider and reporting system.",
+                "Residential, Public Building - HV, Commercial - HV, Commercial - LV"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Consumption",
+                "Float",
+                "Enter a nonnegative numeric electricity consumption value for the billing period. Use a decimal point and omit unit symbols. Confirm the provider’s reporting unit before entry. Use 0 only for confirmed zero consumption.",
+                "28.71"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Street",
+                "String",
+                "Enter the official street name. Avoid abbreviations where a full official name is available. Capitalize the first letter of each word and retain official punctuation.",
+                "National Road"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Purok",
+                "String",
+                "Enter the official purok or sitio name. Avoid abbreviations and use Arabic digits instead of Roman numerals when a location number is present. Keep the name consistent with its barangay.",
+                "Purok 1"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "Barangay",
+                "String",
+                "Use the official barangay name in the PSA Philippine Standard Geographic Code (PSGC). Match the correct city or municipality and province. Preserve PSGC spelling, punctuation, and numbering. Do not use unofficial aliases or abbreviations.",
+                "Barangay 1"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Billing Date",
+                "Date",
+                "Enter the actual billing date in YYYY-MM-DD format, with a four-digit year. Use a valid calendar date and verify it against the bill.",
+                "2026-05-30"
+              ]
+            },
+            {
+              "row": 10,
+              "values": [
+                "Keep Data column headers unchanged. Use one record per row. Examples illustrate entry format. Confirm category lists, units, and required fields with the receiving system."
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "Barangay basis: PSA PSGC — https://psa.gov.ph/classification/psgc"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "residential-template-test.xlsx": {
+      "file_name": "residential-template-test.xlsx",
+      "sheet_names": [
+        "Data",
+        "Instructions"
+      ],
+      "sheets": {
+        "Data": {
+          "max_row": 1000,
+          "max_col": 22,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "CBMS Number",
+                "Gender",
+                "Birth Date",
+                "House No",
+                "Street",
+                "Purok",
+                "Barangay"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 11,
+          "max_col": 4,
+          "row_count_with_data": 10,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "CBMS Number",
+                "String",
+                "Enter the CBMS identifier exactly as issued. Keep leading zeros and hyphens. Use text format and avoid duplicate identifiers for the same person.",
+                "CBMS-000000001"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Gender",
+                "String",
+                "Use the exact gender label accepted by the reporting system and supported by the source record. Keep spelling and capitalization consistent.",
+                "Male"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Birth Date",
+                "Date",
+                "Enter a valid birth date in YYYY-MM-DD format, with a four-digit year. Confirm the century from the source record. The date must not be in the future.",
+                "1970-01-19"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "House No",
+                "String",
+                "Enter the official house or unit number as text. Preserve letters, hyphens, slashes, and leading zeros. Do not force identifiers into numeric format.",
+                "428"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Street",
+                "String",
+                "Enter the official street name. Avoid abbreviations where a full official name is available. Capitalize the first letter of each word and retain official punctuation.",
+                "National Road"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "Purok",
+                "String",
+                "Enter the official purok or sitio name. Avoid abbreviations and use Arabic digits instead of Roman numerals when a location number is present. Keep the name consistent with its barangay.",
+                "Purok 1"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Barangay",
+                "String",
+                "Use the official barangay name in the PSA Philippine Standard Geographic Code (PSGC). Match the correct city or municipality and province. Preserve PSGC spelling, punctuation, and numbering. Do not use unofficial aliases or abbreviations.",
+                "Barangay 1"
+              ]
+            },
+            {
+              "row": 10,
+              "values": [
+                "Keep Data column headers unchanged. Use one record per row. Examples illustrate entry format. Confirm category lists, units, and required fields with the receiving system."
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "Barangay basis: PSA PSGC — https://psa.gov.ph/classification/psgc"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "telecommunication-towers.xlsx": {
+      "file_name": "telecommunication-towers.xlsx",
+      "sheet_names": [
+        "Data",
+        "Instructions"
+      ],
+      "sheets": {
+        "Data": {
+          "max_row": 1000,
+          "max_col": 26,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Provider Name",
+                "Tower Name",
+                "Tower Code",
+                "Purok",
+                "Barangay",
+                "Location Address",
+                "Latitude",
+                "Longitude",
+                "Tower Type",
+                "Network Technology",
+                "Tower Height",
+                "Ownership Type",
+                "Status",
+                "Installation Date"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 18,
+          "max_col": 4,
+          "row_count_with_data": 17,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Provider Name",
+                "String",
+                "Enter the official telecommunications provider name. Use consistent spelling and capitalization.",
+                "Smart Communications"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Tower Name",
+                "String",
+                "Enter the official site or tower name as recorded by the provider. Keep it consistent with the tower code and location.",
+                "TEST TOWER 00001"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Tower Code",
+                "String",
+                "Enter the tower or site identifier exactly as assigned. Keep leading zeros, letters, and hyphens. Use text format and avoid duplicate tower identifiers.",
+                "TEST-TWR-00001"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Purok",
+                "String",
+                "Enter the official purok or sitio name. Avoid abbreviations and use Arabic digits instead of Roman numerals when a location number is present. Keep the name consistent with its barangay.",
+                "Purok 1"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Barangay",
+                "String",
+                "Use the official barangay name in the PSA Philippine Standard Geographic Code (PSGC). Match the correct city or municipality and province. Preserve PSGC spelling, punctuation, and numbering. Do not use unofficial aliases or abbreviations.",
+                "Barangay 1"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "Location Address",
+                "String",
+                "Enter the complete official site address. Include the street or landmark, purok or sitio, and barangay where available. Ensure it agrees with the separate location fields and coordinates.",
+                "ECO TOURISM ROAD PUROK LANSONESAN, BARANGAY  1"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Latitude",
+                "Float",
+                "Enter a valid decimal latitude from -90 to 90. Use a decimal point, without degree symbols. Verify that the coordinate matches the stated location.",
+                "13.93824298"
+              ]
+            },
+            {
+              "row": 9,
+              "values": [
+                "Longitude",
+                "Float",
+                "Enter a valid decimal longitude from -180 to 180. Use a decimal point, without degree symbols. Verify that the coordinate matches the stated location.",
+                "121.6132709"
+              ]
+            },
+            {
+              "row": 10,
+              "values": [
+                "Tower Type",
+                "String",
+                "Use the exact tower-type label accepted by the reporting system.",
+                "Self-Supporting, Guyed Tower, and Rooftop"
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "Network Technology",
+                "String",
+                "Use the exact technology designation accepted by the reporting system. Examples in the supplied file include LTE and 5G. Use the system’s prescribed format for multiple technologies.",
+                "LTE"
+              ]
+            },
+            {
+              "row": 12,
+              "values": [
+                "Tower Height",
+                "Float",
+                "Enter a positive numeric height. Omit unit symbols from the value. Confirm the required measurement unit and whether the height refers to the tower structure or total height before entry.",
+                "29"
+              ]
+            },
+            {
+              "row": 13,
+              "values": [
+                "Ownership Type",
+                "String",
+                "Use the exact ownership label accepted by the reporting system.",
+                "Provider-owned, Third-party, etc."
+              ]
+            },
+            {
+              "row": 14,
+              "values": [
+                "Status",
+                "String",
+                "Use the exact tower-status label accepted by the reporting system. Verify the status for the reporting date.",
+                "Operational, Under Construction, Etc."
+              ]
+            },
+            {
+              "row": 15,
+              "values": [
+                "Installation Date",
+                "Date",
+                "Enter the verified installation date in YYYY-MM-DD format, with a four-digit year. If installation has not occurred, use the reporting system’s accepted blank value instead of an invented date.",
+                "2022-10-29"
+              ]
+            },
+            {
+              "row": 17,
+              "values": [
+                "Keep Data column headers unchanged. Use one record per row. Examples illustrate entry format. Confirm category lists, units, and required fields with the receiving system."
+              ]
+            },
+            {
+              "row": 18,
+              "values": [
+                "Barangay basis: PSA PSGC — https://psa.gov.ph/classification/psgc"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "transportation-template.xlsx": {
+      "file_name": "transportation-template.xlsx",
+      "sheet_names": [
+        "Data",
+        "Instructions"
+      ],
+      "sheets": {
+        "Data": {
+          "max_row": 1000,
+          "max_col": 26,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Route",
+                "Available Units",
+                "Vehicle Type",
+                "Barangays Covered by Route",
+                "Puroks Covered by Route"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 9,
+          "max_col": 4,
+          "row_count_with_data": 8,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Route",
+                "String",
+                "Enter the official route name with its origin and destination. Use a consistent separator and include distinguishing route details where needed.",
+                "Barangay 1 - Barangay 2"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Available Units",
+                "Integer",
+                "Enter the nonnegative whole-number count of available vehicles for the route and reporting period. Do not include units unavailable under the reporting definition.",
+                "66"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Vehicle Type",
+                "String",
+                "Use the exact vehicle-type label or code accepted by the reporting system. Keep approved codes unchanged. The supplied sample uses PUJ.",
+                "PUJ"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Barangays Covered by Route",
+                "String",
+                "Use the official barangay names in PSA PSGC for the barangays served by the route. Match each to the correct city or municipality and province. Preserve PSGC spelling and numbering. Use the import system’s delimiter for multiple names and avoid duplicates.",
+                "Barangay 1, Barangay 2"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Puroks Covered by Route",
+                "String",
+                "Enter the official local puroks served by the route and associate each with its PSA PSGC barangay name. Use the import system’s delimiter for multiple entries. Verify purok names against local records.",
+                "Barangay 1 :: Purok 1, Barangay 2 :: Purok 1, "
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Keep Data column headers unchanged. Use one record per row. Examples illustrate entry format. Confirm category lists, units, and required fields with the receiving system."
+              ]
+            },
+            {
+              "row": 9,
+              "values": [
+                "Barangay basis: PSA PSGC — https://psa.gov.ph/classification/psgc"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "water-template.xlsx": {
+      "file_name": "water-template.xlsx",
+      "sheet_names": [
+        "Data",
+        "Instructions"
+      ],
+      "sheets": {
+        "Data": {
+          "max_row": 1000,
+          "max_col": 26,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Account Number",
+                "Type",
+                "Consumption",
+                "Street",
+                "Purok",
+                "Barangay",
+                "Billing Date"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 11,
+          "max_col": 4,
+          "row_count_with_data": 10,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Account Number",
+                "String",
+                "Enter the account identifier exactly as issued. Keep leading zeros, letters, and hyphens. Use text format. Each account and billing date combination should identify one billing record.",
+                "TEST-LUC-WTR-0000001"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Type",
+                "String",
+                "Use the exact water customer classification accepted by the provider and reporting system.",
+                "Residential, Commercial A, Commercial B"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Consumption",
+                "Float",
+                "Enter a nonnegative numeric water consumption value for the billing period. Use a decimal point and omit unit symbols. Confirm the provider’s reporting unit before entry. Use 0 only for confirmed zero consumption.",
+                "1.1"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Street",
+                "String",
+                "Enter the official street name. Avoid abbreviations where a full official name is available. Capitalize the first letter of each word and retain official punctuation.",
+                "National Road"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Purok",
+                "String",
+                "Enter the official purok or sitio name. Avoid abbreviations and use Arabic digits instead of Roman numerals when a location number is present. Keep the name consistent with its barangay.",
+                "Purok 1"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "Barangay",
+                "String",
+                "Use the official barangay name in the PSA Philippine Standard Geographic Code (PSGC). Match the correct city or municipality and province. Preserve PSGC spelling, punctuation, and numbering. Do not use unofficial aliases or abbreviations.",
+                "Barangay 1"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Billing Date",
+                "Date",
+                "Enter the actual billing date in YYYY-MM-DD format, with a four-digit year. Use a valid calendar date and verify it against the bill.",
+                "2026-05-30"
+              ]
+            },
+            {
+              "row": 10,
+              "values": [
+                "Keep Data column headers unchanged. Use one record per row. Examples illustrate entry format. Confirm category lists, units, and required fields with the receiving system."
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "Barangay basis: PSA PSGC — https://psa.gov.ph/classification/psgc"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "odessee": {
+    "Barangay Household Profile Import Template.xlsx": {
+      "file_name": "Barangay Household Profile Import Template.xlsx",
+      "sheet_names": [
+        "Barangay Population Import Temp",
+        "Instructions"
+      ],
+      "sheets": {
+        "Barangay Population Import Temp": {
+          "max_row": 331,
+          "max_col": 19,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "CBMS#-Ind#",
+                "Gender",
+                "Civil Status",
+                "Barangay",
+                "Purok/Zone",
+                "Solo Parent(Y/N)",
+                "Birth Date",
+                "Disability",
+                "Income Classification"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 23,
+          "max_col": 4,
+          "row_count_with_data": 23,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Barangay Name",
+                "string",
+                "Input official Barangay names, Do not use roman numerals in case numbers are present, Avoid abbreviations, Capitalize the first letter of each word.",
+                "Mabini"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Total Population",
+                "int",
+                "Input whole number only, Do not use letters.",
+                "1000.0"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Total Male",
+                "int",
+                "Input whole numbers only, Do not use letters, when summed up together it must be equal to Total Population.",
+                "500.0"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Total Female",
+                "int",
+                "",
+                "500.0"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Total Single",
+                "int",
+                "Input whole numbers only, Do not use letters, When summed up together it must be equal to Total Population.",
+                "300.0"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "Total Married",
+                "int",
+                "",
+                "700.0"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Total Widowed",
+                "int",
+                "",
+                "100.0"
+              ]
+            },
+            {
+              "row": 9,
+              "values": [
+                "Total Solo Parent",
+                "int",
+                "",
+                "120.0"
+              ]
+            },
+            {
+              "row": 10,
+              "values": [
+                "Age 0 to 12 years",
+                "int",
+                "Input whole numbers only, Do not use letters, When summed up together it must be equal to Total Population.",
+                "200.0"
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "Age 13 to 18 years",
+                "int",
+                "",
+                "150.0"
+              ]
+            },
+            {
+              "row": 12,
+              "values": [
+                "Age 19 to 59 years",
+                "int",
+                "",
+                "550.0"
+              ]
+            },
+            {
+              "row": 13,
+              "values": [
+                "Age 60 years and above",
+                "int",
+                "",
+                "100.0"
+              ]
+            },
+            {
+              "row": 14,
+              "values": [
+                "Disability: Psychosocial Disability",
+                "int",
+                "Input whole number, Use 0 if none, Do not use letters.",
+                "2.0"
+              ]
+            },
+            {
+              "row": 15,
+              "values": [
+                "Disability: Disability Resulting from a Chronic Illness",
+                "int",
+                "",
+                "3.0"
+              ]
+            },
+            {
+              "row": 16,
+              "values": [
+                "Disability: Learning Disability",
+                "int",
+                "",
+                "1.0"
+              ]
+            },
+            {
+              "row": 17,
+              "values": [
+                "Disability: Visual Disability",
+                "int",
+                "",
+                "4.0"
+              ]
+            },
+            {
+              "row": 18,
+              "values": [
+                "Disability: Orthopedic Musculoskeletal Physical Disability",
+                "int",
+                "",
+                "2.0"
+              ]
+            },
+            {
+              "row": 19,
+              "values": [
+                "Disability: Mental Disability (Illness or Disorder)",
+                "int",
+                "",
+                "1.0"
+              ]
+            },
+            {
+              "row": 20,
+              "values": [
+                "Disability: Intellectual Disability",
+                "int",
+                "",
+                "2.0"
+              ]
+            },
+            {
+              "row": 21,
+              "values": [
+                "Disability: Hearing Disability",
+                "int",
+                "",
+                "1.0"
+              ]
+            },
+            {
+              "row": 22,
+              "values": [
+                "Disability: Speech, Language Impairment",
+                "int",
+                "",
+                "1.0"
+              ]
+            },
+            {
+              "row": 23,
+              "values": [
+                "Disability:Multiple Disabilities",
+                "int",
+                "",
+                "1.0"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "COVID Cases Import Template.xlsx": {
+      "file_name": "COVID Cases Import Template.xlsx",
+      "sheet_names": [
+        "Covid Cases Import Template",
+        "Instructions"
+      ],
+      "sheets": {
+        "Covid Cases Import Template": {
+          "max_row": 41,
+          "max_col": 40,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Barangay",
+                "Facilities",
+                "Total Number of Case"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 41,
+          "max_col": 4,
+          "row_count_with_data": 41,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Examples"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Barangay",
+                "string",
+                "Input official Barangay names, Do not use roman numerals in case numbers are present, Avoid abbreviations, Capitalize the first letter of each word.",
+                "San Fermin"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "CV Number",
+                "string",
+                "Input whole numbers, Use 0 if none, Do not use letters.",
+                "5954.0"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Facility Name",
+                "string",
+                "Input Official facility name. Capitalize the first letter of each word. Avoid abbreviations.",
+                "Cauayan City Health Office 2"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Latitude",
+                "float",
+                "Input decimal coordinates. Use up to 6 decimal places.",
+                "14.599512"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Longitude",
+                "float",
+                "",
+                "120.984222"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "Birth Date",
+                "date",
+                "Input dates in this format: YYYY-MM-DD, Must be a valid past date.",
+                "1985-08-23 00:00:00"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Sex",
+                "string",
+                "Choose one of the predetermined sex: “Male”, “Female”, Capitalize the first letter.",
+                "Male"
+              ]
+            },
+            {
+              "row": 9,
+              "values": [
+                "Civil Status",
+                "string",
+                "Choose one of the predetermined civil status: “Single”, “Married”, “Widowed”, “Legally Separated\", if others specify",
+                "Married"
+              ]
+            },
+            {
+              "row": 10,
+              "values": [
+                "Nationality",
+                "string",
+                "Input nationality, Capitalize the first letter, Avoid abbreviations.",
+                "Filipino"
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "Classification",
+                "string",
+                "Input official clasification names in their abbreviated terms, Capitalize the all the letters",
+                "PUM-Local"
+              ]
+            },
+            {
+              "row": 12,
+              "values": [
+                "Health Care Worker",
+                "Boolean",
+                "Input “Y” or “N”, Capitalize the letter.",
+                "Y"
+              ]
+            },
+            {
+              "row": 13,
+              "values": [
+                "Occupation",
+                "string",
+                "Input the current occupation name only, Capitalize the first letter of each word, Input \"N/A\" if None",
+                "Nurse"
+              ]
+            },
+            {
+              "row": 14,
+              "values": [
+                "Industry",
+                "string",
+                "Input the industry sector using standard terms, Capitalize the first letter",
+                "Health Care"
+              ]
+            },
+            {
+              "row": 15,
+              "values": [
+                "Occupation Classification",
+                "string",
+                "Input official occupation classifications, Capitalize the first letter, Avoid abbriviations",
+                "Management"
+              ]
+            },
+            {
+              "row": 16,
+              "values": [
+                "Travel History 14 Days",
+                "Boolean",
+                "Input “Y” or “N” if travelled within 14 days, Capitalize the letter.",
+                "Y"
+              ]
+            },
+            {
+              "row": 17,
+              "values": [
+                "Travel History 14 Days Date From",
+                "date",
+                "Input dates in this format format: YYYY-MM-DD. Required if Travel History = Yes.",
+                "2023-06-12 00:00:00"
+              ]
+            },
+            {
+              "row": 18,
+              "values": [
+                "Travel History 14 Days From Location",
+                "string",
+                "Input the official City/Region names, Avoid abbreviations, Capitalize the first letter of each word, Required if Travel History = Yes.",
+                "Cebu City"
+              ]
+            },
+            {
+              "row": 19,
+              "values": [
+                "Travel History 14 Days To Location",
+                "string",
+                "",
+                "Quezon City"
+              ]
+            },
+            {
+              "row": 20,
+              "values": [
+                "Current Health Status",
+                "string",
+                "Choose one of the predetermined health status: “Asymptomatic”, “Mild”, “Severe”, “Recovered”.",
+                "Mild"
+              ]
+            },
+            {
+              "row": 21,
+              "values": [
+                "Fever",
+                "Boolean",
+                "Input “Y” or “N”, Capitalize the letter.",
+                "Y"
+              ]
+            },
+            {
+              "row": 22,
+              "values": [
+                "Cough",
+                "Boolean",
+                "",
+                "N"
+              ]
+            },
+            {
+              "row": 23,
+              "values": [
+                "Cold",
+                "Boolean",
+                "",
+                "N"
+              ]
+            },
+            {
+              "row": 24,
+              "values": [
+                "Sore Throat",
+                "Boolean",
+                "",
+                "Y"
+              ]
+            },
+            {
+              "row": 25,
+              "values": [
+                "Respiratory Infection",
+                "Boolean",
+                "",
+                "N"
+              ]
+            },
+            {
+              "row": 26,
+              "values": [
+                "Diarrhea",
+                "Boolean",
+                "",
+                "N"
+              ]
+            },
+            {
+              "row": 27,
+              "values": [
+                "Other Symptoms",
+                "Boolean",
+                "",
+                "Y"
+              ]
+            },
+            {
+              "row": 28,
+              "values": [
+                "Specify Symptom",
+                "String",
+                "Describe symptoms briefly if \"Other Symptoms\" = Yes, Avoid abbreviation",
+                "Chills"
+              ]
+            },
+            {
+              "row": 29,
+              "values": [
+                "Hypertension",
+                "Boolean",
+                "Input “Y” or “N”, Capitalize the letter.",
+                "Y"
+              ]
+            },
+            {
+              "row": 30,
+              "values": [
+                "Diabetes",
+                "Boolean",
+                "",
+                "N"
+              ]
+            },
+            {
+              "row": 31,
+              "values": [
+                "Tuberculosis",
+                "Boolean",
+                "",
+                "N"
+              ]
+            },
+            {
+              "row": 32,
+              "values": [
+                "Cancer",
+                "Boolean",
+                "",
+                "N"
+              ]
+            },
+            {
+              "row": 33,
+              "values": [
+                "Renal Disease",
+                "Boolean",
+                "",
+                "N"
+              ]
+            },
+            {
+              "row": 34,
+              "values": [
+                "Cardiac Disease",
+                "Boolean",
+                "",
+                "N"
+              ]
+            },
+            {
+              "row": 35,
+              "values": [
+                "Autoimmune Disease",
+                "Boolean",
+                "",
+                "N"
+              ]
+            },
+            {
+              "row": 36,
+              "values": [
+                "Pregnant",
+                "Boolean",
+                "",
+                "Y"
+              ]
+            },
+            {
+              "row": 37,
+              "values": [
+                "High Risk Pregnancy",
+                "Boolean",
+                "Input “Y” or “N”, Capitalize the first letter, Required if Pregnant = Yes.",
+                "N"
+              ]
+            },
+            {
+              "row": 38,
+              "values": [
+                "Other Condition Comorbidity",
+                "string",
+                "Specify other condition, if any. Ignore no other.",
+                "Asthma"
+              ]
+            },
+            {
+              "row": 39,
+              "values": [
+                "Quarantine",
+                "Boolean",
+                "Input “Y” or “N”, Capitalize the letter.",
+                "Y"
+              ]
+            },
+            {
+              "row": 40,
+              "values": [
+                "Place Of Quarantine",
+                "string",
+                "Input official names of the location, Do not use roman numerals in case numbers are present, Avoid abbreviations, Capitalize the first letter of each word",
+                "Isabela State University"
+              ]
+            },
+            {
+              "row": 41,
+              "values": [
+                "Date Time Specimen Collected",
+                "datetime",
+                "Input dates and time in this format: YYYY-MM-DD. HH:MM. 24-hour time format.",
+                "2023-07-02 14:30:00"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "DRRM Resources Import Template.xlsx": {
+      "file_name": "DRRM Resources Import Template.xlsx",
+      "sheet_names": [
+        "DRRM Resources Import Template",
+        "Instruction"
+      ],
+      "sheets": {
+        "DRRM Resources Import Template": {
+          "max_row": 6,
+          "max_col": 5,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Group/Team",
+                "Resources/Equipment",
+                "Quantity",
+                "Unit",
+                "Category"
+              ]
+            }
+          ]
+        },
+        "Instruction": {
+          "max_row": 6,
+          "max_col": 4,
+          "row_count_with_data": 6,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Examples"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Group/Team",
+                "String",
+                "Input official Group/Team names, Do not use roman numerals in case numbers are present, Avoid abbreviations, Capitalize the first letter of each word",
+                "Rescue 922"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Resources/Equipment",
+                "String",
+                "Input official Resource/Equipment names, Do not use roman numerals in case numbers are present, Avoid abbreviations, Capitalize the first letter of each word",
+                "Stretcher"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Quantity",
+                "int",
+                "Input whole number, Use 0 if none, Do not use letters.",
+                "1.0"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Unit",
+                "String",
+                "Choose one of the predetermined category based on the input of Quantity: “Pc\" (Piece), \"PCs\" (Pieces), \"Pairs\"",
+                "Pc"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Category",
+                "String",
+                "Input official Category names, Avoid abbreviations, Capitalize the first letter of each word",
+                "Emergency Medical Equipment"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Disaster Incident Report Template.xlsx": {
+      "file_name": "Disaster Incident Report Template.xlsx",
+      "sheet_names": [
+        "Disaster Incident Report",
+        "Instructions"
+      ],
+      "sheets": {
+        "Disaster Incident Report": {
+          "max_row": 12,
+          "max_col": 26,
+          "row_count_with_data": 2,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "",
+                "",
+                "",
+                "Weather Conditions",
+                "",
+                "",
+                "Water Level"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Report Date",
+                "Incident",
+                "Incident Date (Date Range)",
+                "Sky Condition",
+                "Wind",
+                "Precipitation",
+                "Gauging Station",
+                "Current Level",
+                "Areas Likely to be Affected",
+                "Casualty"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 11,
+          "max_col": 4,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Evacuation Sites Import Template.xlsx": {
+      "file_name": "Evacuation Sites Import Template.xlsx",
+      "sheet_names": [
+        "Evacuation Sites Import Templat",
+        "Instructions"
+      ],
+      "sheets": {
+        "Evacuation Sites Import Templat": {
+          "max_row": 40,
+          "max_col": 26,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Name of Evacuation Center ",
+                "Barangay",
+                "Latitude",
+                "Longitude",
+                "No. of Family",
+                "No. of Individuals",
+                "No. of Storey/ Floors",
+                "No. of Rooms",
+                "No. of Toilet for Women",
+                "No. of Toilet for Men",
+                "Common CR",
+                "No. of Bath/ Shower Area for Women",
+                "No. of Bath/ Shower Area for Men",
+                "Water Source/s",
+                "Breast feeding Area",
+                "With Storage (Y/N) If yes indicate the floor area",
+                "Used as COVID-19 TTMF (Y/N)",
+                "Inspected Safe"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 19,
+          "max_col": 4,
+          "row_count_with_data": 19,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Type",
+                "Rules",
+                "Examples"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Name of Evacuation Center ",
+                "String",
+                "Input official Evacuation Center names, Do not use roman numerals in case numbers are present, Avoid abbreviations, Capitalize the first letter of each word",
+                "San Roque Evacuation Center"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Barangay",
+                "String",
+                "Input official Barangay names, Do not use roman numerals in case numbers are present, Avoid abbreviations, Capitalize the first letter of each word",
+                "Barangay Malinis"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Latitude\n",
+                "Float",
+                "Input must not contain a non-numeric symbols/units",
+                "14.5995"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Longitude",
+                "Float",
+                "",
+                "120.9842"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "No. of Family\n",
+                "int",
+                "Input whole numbers, Use 0 if none, Do not use letters.",
+                "38.0"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "No. of Individuals",
+                "int",
+                "",
+                "182.0"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "No. of Storey/ Floors\n",
+                "int",
+                "",
+                "2.0"
+              ]
+            },
+            {
+              "row": 9,
+              "values": [
+                "No. of Rooms\n",
+                "int",
+                "",
+                "10.0"
+              ]
+            },
+            {
+              "row": 10,
+              "values": [
+                "No. of Toilet for Women",
+                "int",
+                "",
+                "5.0"
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "No. of Toilet for Men\n",
+                "int",
+                "",
+                "4.0"
+              ]
+            },
+            {
+              "row": 12,
+              "values": [
+                "Common CR",
+                "int",
+                "",
+                "3.0"
+              ]
+            },
+            {
+              "row": 13,
+              "values": [
+                "No. of Bath/ Shower Area for Women\n",
+                "int",
+                "",
+                "4.0"
+              ]
+            },
+            {
+              "row": 14,
+              "values": [
+                "No. of Bath/ Shower Area for Men",
+                "int",
+                "",
+                "4.0"
+              ]
+            },
+            {
+              "row": 15,
+              "values": [
+                "Water Source/s",
+                "String",
+                "Input types of water source/s, Avoid abbreviations, Capitalize the first letter of each word",
+                "Deep well, Water Tana"
+              ]
+            },
+            {
+              "row": 16,
+              "values": [
+                "Breast feeding Area",
+                "String",
+                "Indicate availability; write \"Available\" or \"Not Available\"",
+                "Available"
+              ]
+            },
+            {
+              "row": 17,
+              "values": [
+                "With Storage (Y/N) If yes indicate the floor area",
+                "String",
+                "Format: \"Y - [area]\" or \"N\", Avoid abbreviation with the area name.",
+                "Y - 1st floor"
+              ]
+            },
+            {
+              "row": 18,
+              "values": [
+                "Used as COVID-19 TTMF (Y/N)\n",
+                "Boolean",
+                "Input “Y” or “N”, Capitalize the letter.",
+                "Y"
+              ]
+            },
+            {
+              "row": 19,
+              "values": [
+                "Inspected Safe",
+                "Boolean",
+                "",
+                "Y"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Flood Susceptibility Rating Import Template.xlsx": {
+      "file_name": "Flood Susceptibility Rating Import Template.xlsx",
+      "sheet_names": [
+        "Geo Hazard Import Template",
+        "Instructions"
+      ],
+      "sheets": {
+        "Geo Hazard Import Template": {
+          "max_row": 16,
+          "max_col": 13,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Area of Concern",
+                "Barangay Name",
+                "Barangay Code",
+                "Municipality Name",
+                "Municipality Code",
+                "Geocode",
+                "Purok/Sitio",
+                "Latitude",
+                "Longitude",
+                "Susceptibility Rating",
+                "Flood Height",
+                "Elevation",
+                "POI"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 16,
+          "max_col": 4,
+          "row_count_with_data": 16,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column ",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Area of Concern",
+                "String",
+                "Input official names, Do not use roman numerals in case numbers are present, Avoid abbreviations, Capitalize the first letter of each word",
+                "Bridge"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Barangay Name",
+                "String",
+                "Input official barangay names, Do not use roman numerals in case numbers are present, Avoid abbreviations, Capitalize the first letter of each word",
+                "San Fermin"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Barangay Code",
+                "int",
+                "All data must be accurate, complete, and entered using the official format by authorized personnel only.",
+                "1928372.0"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Municipality Name",
+                "String",
+                "Input official municipal name. Capitalize the first letter of each word. Avoid abbreviations.",
+                "Cauayan City"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Municipality Code",
+                "int",
+                "All data must be accurate, complete, and entered using the official format by authorized personnel only.",
+                "126542.0"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "Geocode",
+                "String",
+                "All geographic data must use the official barangay geocode and follow standardized coordinates and location names.",
+                "PH-01-03-02-007"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Purok/Sitio",
+                "String",
+                "Input official names of the location, Do not use roman numerals,",
+                "Purok 4"
+              ]
+            },
+            {
+              "row": 9,
+              "values": [
+                "Latitude",
+                "Float",
+                "Input must be a valid geographic coordinate",
+                "14.599512"
+              ]
+            },
+            {
+              "row": 10,
+              "values": [
+                "Longitude",
+                "Float",
+                "",
+                "120.984222"
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "Susceptibility Rating",
+                "String",
+                "Susceptibility ratings must be assigned based on validated hazard assessments and entered using standardized categories such as \"HIGH FLOOD SUSCEPTIBILITY (HF), LOW FLOOD SUSCEPTIBILITY (LF), MODERATE FLOOD SUSCEPTIBILITY (MF), VERY HIGH FLOOD SUSCEPTIBILITY (VHF)\"",
+                "HF"
+              ]
+            },
+            {
+              "row": 12,
+              "values": [
+                "Flood Height",
+                "Float",
+                "Flood height must be measured in meters using verified instruments or official reports, and recorded as a numeric value with up to two decimal places.",
+                "1.75"
+              ]
+            },
+            {
+              "row": 13,
+              "values": [
+                "Elevation",
+                "Float",
+                "Elevation must be recorded in meters above sea level as a numeric value with up to two decimal places, based on official surveys or GPS measurements.",
+                "45.3"
+              ]
+            },
+            {
+              "row": 14,
+              "values": [
+                "Point of Interest",
+                "String"
+              ]
+            },
+            {
+              "row": 15,
+              "values": [
+                "Remarks/Recommendation",
+                "String",
+                "Remarks or recommendations must be clear, concise, and relevant, written in complete sentences without abbreviations, and should provide actionable or explanatory information based on observations or assessments."
+              ]
+            },
+            {
+              "row": 16,
+              "values": [
+                "As of",
+                "Date",
+                "Format: YYYY-MM-DD.",
+                "2021-02-08 00:00:00"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability Risk Assessment Import Template.xlsx": {
+      "file_name": "Vulnerability Risk Assessment Import Template.xlsx",
+      "sheet_names": [
+        "Tuguegarao VRA Import Template",
+        "Instructions"
+      ],
+      "sheets": {
+        "Tuguegarao VRA Import Template": {
+          "max_row": 135,
+          "max_col": 24,
+          "row_count_with_data": 1,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Area of Concern",
+                "Barangay Name",
+                "Purok/Sitio",
+                "Geocode",
+                "Latitude",
+                "Longitude",
+                "Susceptibility Rating",
+                "Concern Category"
+              ]
+            }
+          ]
+        },
+        "Instructions": {
+          "max_row": 11,
+          "max_col": 4,
+          "row_count_with_data": 11,
+          "rows": [
+            {
+              "row": 1,
+              "values": [
+                "Column",
+                "Data Types",
+                "Rules",
+                "Example"
+              ]
+            },
+            {
+              "row": 2,
+              "values": [
+                "Area of Concern",
+                "String",
+                "Input official Area names, Do not use roman numerals in case numbers are present, Avoid abbreviations, Capitalize the first letter of each word"
+              ]
+            },
+            {
+              "row": 3,
+              "values": [
+                "Barangay Name",
+                "String",
+                "Input official barangay names, Do not use roman numerals in case numbers are present, Avoid abbreviations, Capitalize the first letter of each word",
+                "San Fermin"
+              ]
+            },
+            {
+              "row": 4,
+              "values": [
+                "Purok/Sitio",
+                "",
+                "Input official names of the location, Do not use roman numerals"
+              ]
+            },
+            {
+              "row": 5,
+              "values": [
+                "Geocode",
+                "String",
+                "All geographic data must use the official barangay geocode and follow standardized coordinates and location names.",
+                "PH-01-03-02-007"
+              ]
+            },
+            {
+              "row": 6,
+              "values": [
+                "Latitude",
+                "Float",
+                "Input must be a valid geographic coordinate",
+                "14.599512"
+              ]
+            },
+            {
+              "row": 7,
+              "values": [
+                "Longitude",
+                "Float",
+                "",
+                "120.984222"
+              ]
+            },
+            {
+              "row": 8,
+              "values": [
+                "Susceptibility Rating",
+                "String",
+                "Susceptibility ratings must be assigned based on validated hazard assessments and entered using standardized categories such as \"HIGH FLOOD SUSCEPTIBILITY (HF), LOW FLOOD SUSCEPTIBILITY (LF), MODERATE FLOOD SUSCEPTIBILITY (MF), VERY HIGH FLOOD SUSCEPTIBILITY (VHF)\"",
+                "HF"
+              ]
+            },
+            {
+              "row": 9,
+              "values": [
+                "Concern Category",
+                "String"
+              ]
+            },
+            {
+              "row": 10,
+              "values": [
+                "Remarks/Recommendation",
+                "String",
+                "Remarks or recommendations must be clear, concise, and relevant, written in complete sentences without abbreviations, and should provide actionable or explanatory information based on observations or assessments."
+              ]
+            },
+            {
+              "row": 11,
+              "values": [
+                "As of",
+                "Date",
+                "Format: YYYY-MM-DD.",
+                "2001-08-06 00:00:00"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
